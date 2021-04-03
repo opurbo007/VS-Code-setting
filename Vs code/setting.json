@@ -1,0 +1,70 @@
+{
+   // editor
+   "editor.fontSize": 22,
+
+   "editor.wordWrap": "on",
+   "editor.minimap.enabled": false,
+   "editor.fontFamily": "Operator Mono Lig", //,'Fira Code'
+   "editor.fontLigatures": true,
+   "editor.codeLensFontFamily": "Fira Code",
+   "editor.fontWeight": "100",
+   "prettier.tabWidth": 3,
+   "editor.formatOnType": true,
+   "editor.tokenColorCustomizations": {
+      "textMateRules": [
+         {
+            "scope": "comment",
+            "settings": {
+               "fontStyle": "italic"
+            }
+         }
+      ]
+   },
+
+   // cursor
+   "editor.cursorSmoothCaretAnimation": true,
+   "editor.cursorBlinking": "expand",
+
+   //    config related to code formatting
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "editor.formatOnSave": true,
+   "[javascript]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": null
+   },
+   "[javascriptreact]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": null
+   },
+   "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.tslint": true,
+      "source.organizeImports": true
+   },
+   "eslint.alwaysShowStatus": true,
+   "terminal.integrated.fontFamily": "monospace",
+   "previewServer.port": 8088,
+   "editor.suggestSelection": "first",
+   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+   "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+   },
+   "terminal.integrated.cursorWidth": 0.5,
+   "terminal.integrated.fontSize": 20,
+   "terminal.integrated.fontWeight": "normal",
+   "workbench.colorCustomizations": {
+      "terminal.background": "#000000",
+      "terminal.foreground": "#ffffff",
+      "terminalCursor.background": "#ebebeb",
+      "terminalCursor.foreground": "#ffffff",
+      "terminal.ansiCyan": "#606664"
+   },
+   "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+   "workbench.startupEditor": "newUntitledFile",
+   "code-runner.runInTerminal": true,
+   "code-runner.saveFileBeforeRun": true,
+   "workbench.iconTheme": "vscode-icons"
+}
